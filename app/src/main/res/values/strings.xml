@@ -1,3 +1,64 @@
 <resources>
     <string name="app_name">BookSearchAppKotlin</string>
+
+    <!-- BottomNav -->
+    <string name="bottom_search">検索</string>
+    <string name="bottom_favorite">お気に入り</string>
+
+    <!-- TopNav -->
+    <string name="top_nav_search_books">本を探す</string>
+    <string name="search_bar_placeholder">タイトルや著者名を入力してね</string>
+    <string name="top_nav_favorite">お気に入り</string>
+    <string name="top_nav_edit">編集</string>>
+    
+    <!-- BooksInfo -->
+    <string name="title_key">タイトル</string>
+    <string name="author_key">著者</string>
+    <string name="released_date_key">発刊年月日</string>
+    <string name="book_description_key">本の説明</string>
+    
+    <string name="no_author">作者なし</string>
+    <string name="no_released_date">発刊年月日なし</string>
+    <string name="no_description">※この本についての説明はありません</string>
+    
+    <!-- EmptyView -->
+    <string name="books_search_guide">本を探せるよ！</string>
+    <string name="books_search_no_result">「%c」\n\nでの検索結果はありませんでした</string>
+    <string name="books_no_favorite">お気に入りされている本はないよ</string>
+    
+    <!-- Buttons -->
+    <string name="button_add_favorite">お気に入りに追加</string>
+    <string name="button_delete_favorite">お気に入りから削除する</string>
+    <string name="button_open_browser">ブラウザで開く</string>
+    
+    <!-- Dialog -->
+    <string name="common_setting">設定</string>
+    <string name="common_close">閉じる</string>
+    <string name="common_no">いいえ</string>
+
+    <string name="db_done">お気に入りに登録</string>
+    <string name="db_done_message">お気に入り登録が完了しました！</string>
+    <string name="db_delete_done">お気に入り削除</string>
+    <string name="db_delete_done_message">お気に入りから削除しました！</string>
+
+    <string name="network_invalid">ネットワーク接続がありません</string>
+    <string name="network_invalid_message">「設定」からネットワーク接続を確認してください。</string>
+
+    <!-- Mocks -->
+    <string name="mock_title_1">スティーブ・ジョブズ捕物帖</string>
+    <string name="mock_title_2">クック・クッキング</string>
+    <string name="mock_title_3">かもめのジョナサン</string>
+    
+    <string name="mock_author_1">Steve Jobs</string>
+    <string name="mock_author_2">Tim Cook</string>
+    <string name="mock_author_3">Jony Ive</string>
+
+    <string name="mock_thumb_URL_1">https://media.loom-app.com/gizmodo/dist/images/2018/07/31/180116_macbook_air_revealed_10years_ago.jpg?w=1280</string>
+    <string name="mock_thumb_URL_2">https://www.applemust.com/wp-content/uploads/2018/04/Apple_Chicago_wrapup_Tim_Cook_welcomes_Keynote_audience_to_Lane_Tech_College_Preparatory_High_School_03272018.jpg</string>
+    <string name="mock_thumb_URL_3">https://static.theceomagazine.net/wp-content/uploads/2019/07/10103645/jony-ive-apple-1100x733.jpg</string>
+
+    <string name="mock_description_text">あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+    <string name="mock_URL">https://www.apple.com</string>
+
+
 </resources>
